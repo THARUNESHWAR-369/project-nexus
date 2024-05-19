@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Login & Signup Page</title>
+
+        <!--   Google Icons    -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <!--  External CSS   -->
+        <link rel="stylesheet" href="./static/css/index.css">
+
+
+    </head>
+
+    <body>
+        <div class="bg-gradient"></div>
+
+        <div class="error" id="error-cont">
+           
+        </div>
+
+        <div class="container sizer">
+            <div class="forms">
+                <div action="#" class="login form" id="login">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h1>Login</h1>
+                        </div>
+                        <div class="form-body">
+                            <div class="input-group">
+                                <label for="email"><span class="material-symbols-outlined">
+                                        mail
+                                    </span></label>
+                                <input type="email" id="lg-email" name="lg-email" placeholder="Enter your email"
+                                    autocomplete="off">
+                            </div>
+                            <div class="input-group">
+                                <label for="password">
+                                    <span class="material-symbols-outlined">
+                                        password
+                                    </span>
+                                </label>
+                                <span class="eye-container">
+                                    <input type="password" id="lg-password" name="lg-password"
+                                        placeholder="Enter your password">
+                                    <span class="material-symbols-outlined">visibility_off</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <button id="login-btn">Login</button>
+                            <p>Don't have an account? <a id="go-to-signup">Signup</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div action="#" class="signup form signup-hidden" id="signup">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h1>Signup</h1>
+                        </div>
+                        <div class="form-body">
+                            <div class="input-group">
+                                <label for="username"><span class="material-symbols-outlined">
+                                        person
+                                    </span></label>
+                                <input type="text" id="sg-username" name="sg-username" placeholder="Enter your name"
+                                    autocomplete="off">
+                            </div>
+                            <div class="input-group">
+                                <label for="email"><span class="material-symbols-outlined">
+                                        mail
+                                    </span></label>
+                                <input type="email" id="sg-email" name="sg-email" placeholder="Enter your email"
+                                    autocomplete="off">
+                            </div>
+                            <div class="input-group">
+                                <label for="password">
+                                    <span class="material-symbols-outlined">
+                                        password
+                                    </span>
+                                </label>
+                                <span class="eye-container">
+                                    <input type="password" id="sg-password" name="sg-password"
+                                        placeholder="Enter your password">
+                                    <span class="material-symbols-outlined">visibility_off</span>
+                                </span>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="confirm-password">
+                                    <span class="material-symbols-outlined">
+                                        password
+                                    </span>
+                                </label>
+                                <span class="eye-container">
+                                    <input type="password" id="confirm-password" name="confirm-password"
+                                        placeholder="Re-Enter your password">
+                                    <span class="material-symbols-outlined">visibility_off</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <button id="signup-btn">Signup</button>
+                            <p>Already have an account? <a id="go-to-login">Login</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="./static/js/index.js"></script>
+    </body>
+
+</html>
