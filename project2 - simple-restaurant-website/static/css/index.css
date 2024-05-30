@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.sizer {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(45deg, #4159d0ba, #c850c0be, #ffcd70d2); */
+    z-index: -1;
+}
+
+.bg-bg-container {
+    position: relative;
+}
+
+.bg-bg-container,
+.bg-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-overlay {
+    position: absolute;
+    /* background: linear-gradient(45deg, #4159d0ba, #c850c0be, #ffcd70d2); */
+    background: linear-gradient(6deg, #111111b6, #111111b6, #111111b6, #11111177),
+        linear-gradient(6deg, #111111b6, transparent),
+        linear-gradient(6deg, #111111b6, transparent),
+        linear-gradient(6deg, #111111b6, transparent);
+    top: 0;
+    z-index: 1;
+}
+
+.bg-bg-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.forms {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.form {
+    width: 100%;
+    max-width: 25em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container {
+    padding: 20px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.input-group label span {
+    background: linear-gradient(#4159d0ba, #c850c0be, #ffcd70d2);
+    font-weight: bold;
+    font-size: 2em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    max-width: 50em;
+}
+
+.input-group input[type="password"] {
+    padding-right: 40px;
+}
+
+.input-group .eye-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.input-group .eye-container span {
+    position: absolute;
+    right: 0.4em;
+    background: linear-gradient(#4159d0ba, #c850c0be, #ffcd70d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.form-footer button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #4159d0ba, #c850c0be, #ffcd70d2);
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-footer p {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.form-footer p a {
+    color: #4159d0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form.login-hidden {
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    z-index: -1;
+    /* display: none; */
+}
+
+.form.signup-hidden {
+    transform: translate(15%, -50%);
+    opacity: 0;
+    z-index: -1;
+    /* display: none; */
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    position: absolute;
+    width: auto;
+    right: 0;
+    padding: 1em;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-end;
+}
+
+.error-container {
+    background-color: #f7f7f7;
+    width: fit-content;
+    float: right;
+    /* padding: 0.5em; */
+    border-radius: 5px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.error-header,
+.success-header {
+    font-weight: 500;
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.error-header {
+    background-color: #ef0e0ebc;
+
+}
+
+.success-header {
+    background-color: #0eef61bc;
+
+}
+
+.error-header span,
+.success-header span {
+    cursor: pointer;
+}
+
+.error-body {
+    padding: 0.4em;
+}
+
+
+@media (max-width: 768px) {
+    .sizer {
+        padding: 10px;
+    }
+}

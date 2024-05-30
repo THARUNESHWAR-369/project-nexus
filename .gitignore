@@ -1,0 +1,7 @@
+# add gitignore for python
+*.pyc
+*/*.pyc
+*/venv/
+venv/
+.env
+*/.env

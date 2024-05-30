@@ -1,0 +1,10 @@
+bcrypt
+cryptography
+Flask
+Flask-Bcrypt
+Flask-JWT-Extended
+Flask-Login
+Flask-SQLAlchemy
+PyJWT
+python-dotenv
+SQLAlchemy
