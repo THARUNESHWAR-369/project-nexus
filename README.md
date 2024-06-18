@@ -10,3 +10,5 @@
   #### Open ```http://127.0.0.1:5000/```
 
 ## Phase 2
+### Techy Solutions
+> check out ```https://techy-softwares.vercel.app/```
