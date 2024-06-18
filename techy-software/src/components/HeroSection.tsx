@@ -22,8 +22,8 @@ function HeroSection() {
             />
           </div>
           <div className="hero-section-content w-full absolute top-0 left-1/2 transform -translate-x-[50%]">
-            <div className="hero-content sizer text-center relative top-[12em] items-center ">
-              <h1 className="text-6xl font-extrabold -tracking-wider max-w-[14em] m-auto w-full">
+            <div className="hero-content sizer text-center relative top-[12em] items-center max-[745px]:top-[8em] max-[390px]:top-[4em]">
+              <h1 className="text-6xl font-extrabold -tracking-wider max-w-[14em] m-auto w-full max-[490px]:text-5xl">
                 {" "}
                 <span className="text-transparent inline-block bg-clip-text bg-primary-gradient">
                   Affordable Website Solutions for Your Business

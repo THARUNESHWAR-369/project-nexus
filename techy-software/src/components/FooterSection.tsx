@@ -93,7 +93,7 @@ function FooterSection() {
               </li>
             </ul>
           </div>
-          <div className="footer-newsletter max-w-[18em] w-full">
+          <div className="footer-newsletter max-w-[18em] w-full max-[720px]:max-w-full">
             <p className="font-bold text-lg">Feedback</p>
 
             <div className="newsletter flex flex-col gap-2">

@@ -11,8 +11,8 @@ function ServiceSection() {
             What We Offer
           </span>
         </h1>
-        <div className="service-cont flex relative">
-          <div className="services w-[145%] h-full">
+        <div className="service-cont flex relative max-[780px]:flex-col max-[780px]:gap-14">
+          <div className="services w-[145%] max-[780px]:w-full h-full">
             <div className="cards mt-7">
               <div className="card">
                 <div className="card-heading">
@@ -60,7 +60,7 @@ function ServiceSection() {
               </div>
             </div>
           </div>
-          <div className="services-image relative translate-x-[10em]">
+          <div className="services-image relative transform translate-x-[10em] max-[780px]:translate-x-0">
             <Image
               src={ServiceImage}
               alt="service-image"
