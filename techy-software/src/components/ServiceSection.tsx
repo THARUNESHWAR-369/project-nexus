@@ -4,7 +4,7 @@ import ServiceImage from "../../public/assets/services/s1.webp";
 
 function ServiceSection() {
   return (
-    <section className="py-14 overflow-x-hidden h-auto">
+    <section id='services-section' className="py-14 overflow-x-hidden h-auto">
       <div className="service-container sizer">
         <h1 className="text-2xl font-extrabold uppercase">
           <span className="text-transparent inline-block bg-clip-text bg-primary-gradient">

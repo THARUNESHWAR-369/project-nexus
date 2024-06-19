@@ -4,7 +4,7 @@ import IntroImage from "../../public/assets/intro/intro1.webp";
 
 function IntroSection() {
   return (
-    <section className="z-[20px] py-10 bg-[#f7f7f7] text-black overflow-hidden">
+    <section id="intro-section" className="z-[20px] py-10 bg-[#f7f7f7] text-black overflow-hidden">
       <div className="intro-section-container sizer">
         <h2 className="uppercase text-2xl font-extrabold">
           {" "}

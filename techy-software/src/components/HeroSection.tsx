@@ -6,7 +6,8 @@ import Marquee from "react-fast-marquee";
 
 function HeroSection() {
   return (
-    <section>
+    <section id="hero-section" className="relative">
+  
       <div className="hero-section w-full h-full relative overflow-y-hidden">
         <NavbarWidget />
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function ChooseUsSection() {
   return (
-    <section className="py-14 overflow-x-hidden h-auto bg-[#f7f7f7] text-black relative">
+    <section id='choose-us' className="py-14 overflow-x-hidden h-auto bg-[#f7f7f7] text-black relative">
       {/* <div className=" bg-primary-gradient w-full h-full absolute top-0 opacity-10"></div> */}
       <div className="chooseus-container sizer relative">
         <h1 className="text-2xl font-extrabold uppercase">

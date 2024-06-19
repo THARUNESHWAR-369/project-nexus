@@ -59,16 +59,16 @@ function NavbarWidget() {
             <div className="desktop-items max-[800px]:hidden">
               <ul className="flex gap-5 font-medium">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#hero-section">Home</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="#intro-section">About Us</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#services-section">Services</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="#footer-section">Contact Us</a>
                 </li>
                 <li>
                   <a
@@ -84,16 +84,16 @@ function NavbarWidget() {
             <div className={`mobile-items ${showMobileMenu ? 'block' : 'hidden'} absolute right-[0px] w-[10em] h-fit bg-white  top-[2.9em] rounded-md shadow-md p-2 pb-4`}>
               <ul className="flex flex-col gap-5 font-medium">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#hero-section">Home</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="#intro-section">About Us</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#services-section">Services</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="#footer-section">Contact Us</a>
                 </li>
                 <li>
                   <a

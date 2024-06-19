@@ -2,7 +2,7 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <section className="py-14 overflow-x-hidden h-auto bg-black text-grey">
+    <section id="footer-section" className="py-14 overflow-x-hidden h-auto bg-black text-grey">
       <div className="footer-container sizer">
         <div className="footer-content flex gap-10 flex-wrap">
           <div className="footer-intro max-w-[22em] w-full flex flex-col gap-8">
